@@ -21,7 +21,6 @@
 
 .links {
   display: flex;
-  
   justify-content: flex-end;
 }
 
@@ -42,6 +41,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
 }
 
 .photo-grid-container {
